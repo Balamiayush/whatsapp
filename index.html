@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whats App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div id="nright">
+                <img src="https://static.whatsapp.net/rsrc.php/v3/y7/r/DSxOAUB0raA.png" alt="">
+            </div>
+            <div id="ncenter">
+                <a href="#">Features<i class="ri-arrow-down-s-line"></i></a>
+                <a href="#">Privacy</a>
+                <a href="#">Help Center</a>
+                <a href="#">Blog</a>
+                <a href="#">For Business</a>
+                <a href="#">WhatsApp Web</a>
+                <a href="#">Download</a>
+         
+            </div>
+            <div id="nleft">
+                <!-- <div class="btn">
+                    <a href="ms-windows-store://pdp/?productid=9NKSQGP7F2NH&amp;mode=mini&amp;cid=www_test" target="ms-windows-store://pdp/?productid=9NKSQGP7F2NH&amp;mode=mini&amp;cid=www_test" class="_aeo8 _9vcv _9u4o _9u4i" data-ms="{&quot;creative&quot;:&quot;link&quot;,&quot;creative_detail&quot;:&quot;DesktopNav_Windows_Download_Button&quot;}" rel="noreferrer"><span class="_advp _aeam">Download <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJub25lIiBjbGFzcz0iX3dhdWlJY29uX19kb3dubG9hZC1hbHRlcm5hdGl2ZSBfYWdudCBfOXU0YyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy43NSAxMy43NUMxMy43NSAxNC4xNjQyIDEzLjQxNDIgMTQuNSAxMyAxNC41TDMgMTQuNUMyLjU4NTc5IDE0LjUgMi4yNSAxNC4xNjQyIDIuMjUgMTMuNzVDMi4yNSAxMy4zMzU4IDIuNTg1NzkgMTMgMyAxM0wxMyAxM0MxMy40MTQyIDEzIDEzLjc1IDEzLjMzNTggMTMuNzUgMTMuNzVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTguNzQ4NyAyQzguNzQ4NyAxLjU4NTc5IDguNDEyOTEgMS4yNSA3Ljk5ODcgMS4yNUM3LjU4NDQ4IDEuMjUgNy4yNDg3IDEuNTg1NzkgNy4yNDg3IDJMNy4yNDg3IDkuNTM5NTVMMy4xOTIzMyA1LjUxNDQ5QzIuODk4MzEgNS4yMjI3NCAyLjQyMzQ0IDUuMjI0NTggMi4xMzE2OCA1LjUxODZDMS44Mzk5MyA1LjgxMjYzIDEuODQxNzcgNi4yODc1IDIuMTM1NzkgNi41NzkyNUw3LjQ2OTEyIDExLjg3MTRDNy43NjE1NCAxMi4xNjE2IDguMjMzMjUgMTIuMTYxNiA4LjUyNTY3IDExLjg3MTRMMTMuODU5IDYuNTc5MjZDMTQuMTUzIDYuMjg3NSAxNC4xNTQ5IDUuODEyNjMgMTMuODYzMSA1LjUxODZDMTMuNTcxNCA1LjIyNDU4IDEzLjA5NjUgNS4yMjI3NCAxMi44MDI1IDUuNTE0NDlMOC43NDg3IDkuNTM2OTdMOC43NDg3IDJaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz48L3N2Zz4=" alt=""></a>
+                    </div>-->
+                    <button class="btn">
+                        <p>Download</p>
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJub25lIiBjbGFzcz0iX3dhdWlJY29uX19kb3dubG9hZC1hbHRlcm5hdGl2ZSBfYWdudCBfOXU0YyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy43NSAxMy43NUMxMy43NSAxNC4xNjQyIDEzLjQxNDIgMTQuNSAxMyAxNC41TDMgMTQuNUMyLjU4NTc5IDE0LjUgMi4yNSAxNC4xNjQyIDIuMjUgMTMuNzVDMi4yNSAxMy4zMzU4IDIuNTg1NzkgMTMgMyAxM0wxMyAxM0MxMy40MTQyIDEzIDEzLjc1IDEzLjMzNTggMTMuNzUgMTMuNzVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTguNzQ4NyAyQzguNzQ4NyAxLjU4NTc5IDguNDEyOTEgMS4yNSA3Ljk5ODcgMS4yNUM3LjU4NDQ4IDEuMjUgNy4yNDg3IDEuNTg1NzkgNy4yNDg3IDJMNy4yNDg3IDkuNTM5NTVMMy4xOTIzMyA1LjUxNDQ5QzIuODk4MzEgNS4yMjI3NCAyLjQyMzQ0IDUuMjI0NTggMi4xMzE2OCA1LjUxODZDMS44Mzk5MyA1LjgxMjYzIDEuODQxNzcgNi4yODc1IDIuMTM1NzkgNi41NzkyNUw3LjQ2OTEyIDExLjg3MTRDNy43NjE1NCAxMi4xNjE2IDguMjMzMjUgMTIuMTYxNiA4LjUyNTY3IDExLjg3MTRMMTMuODU5IDYuNTc5MjZDMTQuMTUzIDYuMjg3NSAxNC4xNTQ5IDUuODEyNjMgMTMuODYzMSA1LjUxODZDMTMuNTcxNCA1LjIyNDU4IDEzLjA5NjUgNS4yMjI3NCAxMi44MDI1IDUuNTE0NDlMOC43NDg3IDkuNTM2OTdMOC43NDg3IDJaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz48L3N2Zz4=" alt=""
+                    </button>
+                </div>   
+        </nav>
+        <div class="hero">
+            <div class="img">
+                <img src="https://scontent.whatsapp.net/v/t39.8562-34/316546300_547692113846445_7299710494491288098_n.png?ccb=1-7&_nc_sid=73b08c&_nc_ohc=B8qcR8Z1n8EAX_yuV_E&_nc_ht=scontent.whatsapp.net&oh=01_AdQCGIMmsEttw4vFUk4-40WZFHhvx2FOur-POdBTqbzp3g&oe=65736865" alt="">
+            </div>
+            <div id="hleft">
+                <h1>Message <br> privately</h1>
+                <p>Simple, reliable, private messaging and <br> calling for free*, available all over the <br> world.</p>
+                <button class="btn">
+                    <p>Download</p>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiBmaWxsPSJub25lIiBjbGFzcz0iX3dhdWlJY29uX19kb3dubG9hZC1hbHRlcm5hdGl2ZSBfYWdudCBfOXU0YyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy43NSAxMy43NUMxMy43NSAxNC4xNjQyIDEzLjQxNDIgMTQuNSAxMyAxNC41TDMgMTQuNUMyLjU4NTc5IDE0LjUgMi4yNSAxNC4xNjQyIDIuMjUgMTMuNzVDMi4yNSAxMy4zMzU4IDIuNTg1NzkgMTMgMyAxM0wxMyAxM0MxMy40MTQyIDEzIDEzLjc1IDEzLjMzNTggMTMuNzUgMTMuNzVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTguNzQ4NyAyQzguNzQ4NyAxLjU4NTc5IDguNDEyOTEgMS4yNSA3Ljk5ODcgMS4yNUM3LjU4NDQ4IDEuMjUgNy4yNDg3IDEuNTg1NzkgNy4yNDg3IDJMNy4yNDg3IDkuNTM5NTVMMy4xOTIzMyA1LjUxNDQ5QzIuODk4MzEgNS4yMjI3NCAyLjQyMzQ0IDUuMjI0NTggMi4xMzE2OCA1LjUxODZDMS44Mzk5MyA1LjgxMjYzIDEuODQxNzcgNi4yODc1IDIuMTM1NzkgNi41NzkyNUw3LjQ2OTEyIDExLjg3MTRDNy43NjE1NCAxMi4xNjE2IDguMjMzMjUgMTIuMTYxNiA4LjUyNTY3IDExLjg3MTRMMTMuODU5IDYuNTc5MjZDMTQuMTUzIDYuMjg3NSAxNC4xNTQ5IDUuODEyNjMgMTMuODYzMSA1LjUxODZDMTMuNTcxNCA1LjIyNDU4IDEzLjA5NjUgNS4yMjI3NCAxMi44MDI1IDUuNTE0NDlMOC43NDg3IDkuNTM2OTdMOC43NDg3IDJaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz48L3N2Zz4=" alt=""
+                </button>
+            </div>
+            <div id="hright">
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</html>
